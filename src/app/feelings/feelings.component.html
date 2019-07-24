@@ -1,0 +1,6 @@
+<label>How are you feeling?
+    <input [(ngModel)] = "selectedFeeling" placeholder = "How are you feeling?"/>
+</label>
+<div *ngIf='selectedFeeling==="happy"'><img src='../../assets/happy.jpg'></div>
+<div *ngIf='selectedFeeling==="sad"'><img src='../../assets/sad.png'></div>
+<div *ngIf='selectedFeeling==="mad"'><img src='../../assets/mad.png'></div>
